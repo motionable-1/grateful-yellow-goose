@@ -1,4 +1,4 @@
-import { AbsoluteFill, Artifact, useCurrentFrame, useVideoConfig, Sequence, Audio, interpolate } from "remotion";
+import { AbsoluteFill, Artifact, useCurrentFrame, Sequence, Audio, interpolate } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 import { blurDissolve } from "../library/components/layout/transitions/presentations/blurDissolve";
@@ -14,9 +14,9 @@ const { fontFamily } = loadInter("normal", {
 });
 
 const WHOOSH_SFX =
-  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/sfx/1771929066670_r7srv8gkvnc_sfx_Soft_futuristic_digital_whoosh.mp3";
+  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/sfx/1771929361642_283tk59dvpk_sfx_Soft_futuristic_digital_whoosh.mp3";
 const AMBIENT_SFX =
-  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/sfx/1771929069913_9i1ni0eq5pd_sfx_Gentle_ambient_electronic_back.mp3";
+  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/sfx/1771929364154_wch0kibwmw_sfx_Gentle_ambient_electronic_back.mp3";
 
 // Scene durations (frames at 30fps)
 const HERO_DUR = 150;       // 5s

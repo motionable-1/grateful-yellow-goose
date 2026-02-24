@@ -183,19 +183,11 @@ const StepCard: React.FC<{
 
 export const StepsScene: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
 
   // Section header
   const headerOpacity = interpolate(frame, [0, 15], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
-  });
-
-  // Connecting line between cards
-  const lineProgress = interpolate(frame, [20, 80], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: Easing.inOut(Easing.cubic),
   });
 
   return (

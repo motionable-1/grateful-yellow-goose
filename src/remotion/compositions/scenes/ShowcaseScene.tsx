@@ -1,7 +1,6 @@
 import React from "react";
 import {
   useCurrentFrame,
-  useVideoConfig,
   interpolate,
   Easing,
   AbsoluteFill,

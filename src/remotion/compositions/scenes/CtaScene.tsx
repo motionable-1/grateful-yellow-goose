@@ -97,15 +97,14 @@ export const CtaScene: React.FC = () => {
           stagger={0.03}
           duration={0.7}
           style={{
-            fontSize: 52,
+            fontSize: 48,
             fontWeight: 800,
             color: "#ffffff",
             textAlign: "center",
-            lineHeight: 1.15,
+            lineHeight: 1.2,
             textWrap: "balance",
-            maxWidth: 800,
-            position: "relative",
-            overflow: "hidden",
+            maxWidth: 1000,
+            wordBreak: "keep-all",
           }}
         >
           Ready to animate your imagination?

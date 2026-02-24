@@ -10,7 +10,7 @@ import {
 import { FadeInWords, BlurReveal } from "../../library/components/text/TextAnimation";
 
 const HERO_BG_URL =
-  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/uploads/1771929075674_r4kwn6318oq_typeframes_hero_bg.png";
+  "https://pub-e3bfc0083b0644b296a7080b21024c5f.r2.dev/uploads/1771929365130_0dylshftukzj_typeframes_hero_bg.png";
 
 /** Floating orb for ambient depth */
 const FloatingOrb: React.FC<{
